@@ -34,7 +34,7 @@ export default defineConfig({
       (function() {
         var hm = document.createElement("script");
         hm.src = "https://hm.baidu.com/hm.js?dd9ada7b25f65a181a42780f04b764e6";
-        var s = document.getElementsByTagName("script")[0]; 
+        var s = document.getElementsByTagName("script")[0];
         s.parentNode.insertBefore(hm, s);
       })();
       `,
@@ -64,7 +64,8 @@ export default defineConfig({
   description:
     "🎉🎉🔥基于vue3.x 、Typescript、vite、Element plus等，适配手机、平板、pc 的后台开源免费模板库（vue2.x请切换vue-prev-admin分支）开发文档",
   lang: "zh-CN",
-  base: "/vue-next-admin-doc-preview/",
+  base: "/",
+  // base: "/vue-next-admin-doc-preview/",
   lastUpdated: true,
   themeConfig: {
     logo: "/images/logo-mini.svg",
